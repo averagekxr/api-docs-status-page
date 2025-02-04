@@ -24,7 +24,7 @@ To set up this project, you will need:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/karldc/api-docs-status-page.git
+git clone https://github.com/averagekxr/api-docs-status-page.git
 cd api-docs-status-page
 ```
 
