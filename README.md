@@ -1,0 +1,2 @@
+# api-docs-status-page
+ API Documentation & Status Page - A powerful tool for monitoring service health and providing API documentation for seamless integration. This project includes an easy-to-use status page showing real-time service performance (Operational, Degraded, Outage) and an API documentation interface for developers to interact with your services. Fully customizable with MySQL database integration for tracking service statuses and response times. Ideal for developers and system admins looking to monitor and document their API services efficiently.
