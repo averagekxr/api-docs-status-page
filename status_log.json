@@ -1,0 +1,78 @@
+{
+    "last_updated": "2025-02-04T02:04:40+01:00",
+    "services": [
+        {
+            "service": "Main API",
+            "type": "api",
+            "status": "outage",
+            "response_time": 1.49,
+            "last_checked": "2025-02-04T02:04:40+01:00"
+        },
+        {
+            "service": "Database",
+            "type": "database",
+            "status": "operational",
+            "response_time": 0.17,
+            "last_checked": "2025-02-04T02:04:40+01:00"
+        },
+        {
+            "service": "Auth Service",
+            "type": "auth",
+            "status": "operational",
+            "response_time": 0,
+            "last_checked": "2025-02-04T02:04:40+01:00"
+        }
+    ],
+    "uptime_stats": [
+        {
+            "name": "Auth Service",
+            "total_checks": 127,
+            "operational_checks": "127",
+            "uptime_percentage": "100.00"
+        },
+        {
+            "name": "Database",
+            "total_checks": 127,
+            "operational_checks": "127",
+            "uptime_percentage": "100.00"
+        },
+        {
+            "name": "Main API",
+            "total_checks": 127,
+            "operational_checks": "3",
+            "uptime_percentage": "2.36"
+        }
+    ],
+    "recent_incidents": [
+        {
+            "id": 5,
+            "service_id": 1,
+            "title": "API Kesintisi",
+            "description": "API yan\u0131t vermiyor, ekip ara\u015ft\u0131r\u0131yor.",
+            "status": "resolved",
+            "created_at": "2025-02-04 03:11:55",
+            "updated_at": "2025-02-04 03:12:30",
+            "service_name": "Main API"
+        },
+        {
+            "id": 6,
+            "service_id": 2,
+            "title": "Veritaban\u0131 Ba\u011flant\u0131 Sorunu",
+            "description": "Veritaban\u0131na eri\u015filemiyor, d\u00fczeltme devam ediyor.",
+            "status": "resolved",
+            "created_at": "2025-02-04 03:11:55",
+            "updated_at": "2025-02-04 03:12:34",
+            "service_name": "Database"
+        },
+        {
+            "id": 7,
+            "service_id": 3,
+            "title": "Sunucu Y\u00fcksek Trafik",
+            "description": "Sunucu yo\u011funlu\u011fu nedeniyle yava\u015fl\u0131k ya\u015fan\u0131yor.",
+            "status": "monitoring",
+            "created_at": "2025-02-04 03:11:55",
+            "updated_at": "2025-02-04 03:11:55",
+            "service_name": "Auth Service"
+        }
+    ]
+}
